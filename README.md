@@ -4,7 +4,9 @@ Neste estudo foram avaliados formas de visualização de grupos, principalmente 
 
 Duas técnicas para visualização ganham destaque: t-SNE (t-Distributed Stochastic Neighbor Embedding) e MDS (multidimensional scaling), apesar de outras serem utilizadas, como estimação de densidade uni e bi variada, histograma e gráfico de dispersão.
 
-Os scripts para essas técnicas de maior interesse devem seguir a seguinte ordem:
+No arquivo "visualizacao de grupos.pdf" estão os slides utilizados para apresentação do tema. Nele, a teoria e um pouco sobre como aplicar no R está descrito. 
+
+Os scripts para essas técnicas de maior seguem a seguinte ordem:
 
 1) mapa_real.R - Script em que crio um mapa das cidades estudadas. Ele é criado conforme são na realidade, e servem de gabarito para como as técnicas desempenharam (levando sempre em consideração a finalidade as técnicas).
 2) mapa_tsne - Script em que aplico a técnica t-SNE. Nele, crio dois plots: Um em como o t-SNE separou os grupos lado a lado com o "gabarito" e outro desses dois gráficos sobrepostos.
